@@ -1,0 +1,24 @@
+{
+    "name": "chistaesse/imvdb",
+    "type": "library",
+    "description": "PHP wrapper for IMDBv API",
+    "keywords": ["imvdb"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christophe Histaesse",
+            "email": "christophe@spotern.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "IMVDb\\": "lib" }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.5"
+    }
+}
